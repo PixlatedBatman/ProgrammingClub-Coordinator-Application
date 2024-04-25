@@ -24,17 +24,21 @@ using namespace std;
 
 llt m=0;        // Global variable for finding number of multiplications
 
+llt Sqr(llt a){                 // Function for squaring a number
+    return a*a;
+}
+
 llt Mul(llt a, llt n){          // Function to implement Binary Exponentiation
     if(n==0) return 1;     
     if(n==1) return a;          // Termination points for recursion
 
     if(n%2 == 1){
         m+=2;                   // 2 multiplications : One for squaring and other for multiplying a
-        return pow(Mul(a, n/2), 2)*a;
+        return Sqr(Mul(a, n/2))*a;
     }
     else{
         m++;                    // 1 multiplication : Squaring
-        return pow(Mul(a, n/2), 2);
+        return Sqr(Mul(a, n/2));
     }
 }
 
