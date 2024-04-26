@@ -1,10 +1,12 @@
 // Section 3 Question 1
-// Stimulation of a Classroom Environment
+// Stimulation of a Classroom Environment in the old form of the question
 
 // This code uses Classes to create ann Object Oriented setup 
-// involving people, being either teachers or students. Here, 
-// we are maintaing a database of marks of each student, which
-// can only be updated by a teacher, and a student can only 
+// involving people, being either teachers or students. We are
+// taking into account that students *cannot* make functions
+// in their classes, hence this is the old version of the problem. 
+// Here, we are maintaing a database of marks of each student,
+// which can only be updated by a teacher, and a student can only 
 // access his marks.
 
 // Resources Used :
@@ -17,7 +19,7 @@
 // made into inputs, as currently the Classes are what is important
 
 // The output with the current hardcoded values are stored in a file
-// named "Classroom_output.txt", which is attatched in this Repository
+// named "S3Q1_Classroom_old_output.txt", which is attatched in this Repository
 // https://github.com/PixlatedBatman/ProgrammingClub-Coordinator-Application
 
 #include <bits/stdc++.h>
