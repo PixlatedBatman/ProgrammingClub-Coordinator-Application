@@ -4,10 +4,10 @@ This Repository contains the Files, Videos and Codes that are attached in the ap
 The Application was made using Overleaf Latex: https://www.overleaf.com/read/gxqspndnkpvy#81c180
 
 Tools used:
-The Posters have been made using Canva
-The Codes were written in VS Code
-Video was recorded in OBS Studio
-Documentation was created in Notion
+- The Posters have been made using Canva
+- The Codes were written in VS Code
+- Video was recorded in OBS Studio
+- Documentation was created in Notion
 
 The files that can be found here:
 
